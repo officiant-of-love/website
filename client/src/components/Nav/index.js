@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import hamburgerMenu from './hamburger-menu.svg'
+import hamburgerMenu from './hamburger-menu.svg';
+import closeIcon from './close.svg'
 
 const Nav = () => {
+    const [mobileNavOpen, setMobileNavOpen] = useState(false);
     const handleClick = () => {
 
     };
@@ -15,7 +17,14 @@ const Nav = () => {
                 <li className='px-1'>|</li>
                 <li className='cursor-pointer' onClick={handleClick}>Funerals</li>
             </ul>
-            <img className='align-middle md:hidden pt-1' src={hamburgerMenu} />
+            <img className='align-middle md:hidden pt-1' src={!mobileNavOpen ? hamburgerMenu : closeIcon} onClick={() => setMobileNavOpen(!mobileNavOpen)}/>
+            {mobileNavOpen ? (
+                <ul className='text-white'>
+                    <li>About</li>
+                    <li>Weddings</li>
+                    <li>Funerals</li>
+                </ul>
+            ) : ''}
         </nav>
     );
 };
