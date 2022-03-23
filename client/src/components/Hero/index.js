@@ -1,6 +1,8 @@
-const Hero = () => {
+const Hero = ({heroImage, heroAlt}) => {
     return (
-        <section>Hero</section>
+        <section>
+            <img src={heroImage} alt={heroAlt} />
+        </section>
     );
 };
 
