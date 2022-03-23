@@ -2,8 +2,9 @@ import hamburgerMenu from './hamburger-menu.svg';
 import closeIcon from './close.svg'
 
 const Nav = ({ mobileNavOpen, setMobileNavOpen }) => {
-    const handleClick = () => {
-
+    const handleClick = (e) => {
+        const { className } = e.target;
+        console.log(className)
     };
 
     return (
