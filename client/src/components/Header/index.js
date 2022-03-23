@@ -6,25 +6,25 @@ const Header = () => {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
     return (
-        <>
-            <header className="bg-black opacity-40 p-5 md:p-3 md:block">
+        <header>
+            <div className="bg-black/40 p-5 md:p-3 md:block">
                 <div className="flex justify-between md:flex-col">
                     <h1 className="font-semibold text-4xl lg:text-6xl text-white text-center px-2 pt-2">Officiant of Love</h1>
                     <Nav mobileNavOpen={mobileNavOpen} setMobileNavOpen={setMobileNavOpen}/>
                 </div>
-            </header>
+            </div>
             {mobileNavOpen ? (
-            <div className="bg-black opacity-20">
-                <ul className='flex flex-row justify-between px-2 py-1 sm:px-3 opacity-100'>
-                    <li className="text-white text-3xl">About </li>
-                    <li className="text-white text-3xl">|</li>
-                    <li className="text-white text-3xl">Weddings </li>
-                    <li className="text-white text-3xl">|</li>
-                    <li className="text-white text-3xl">Funerals</li>
+            <div className="bg-black/20">
+                <ul className='flex flex-row justify-between px-2 py-1 sm:px-3'>
+                    <li className="text-white text-3xl font-semibold">About </li>
+                    <li className="text-white text-3xl font-semibold">|</li>
+                    <li className="text-white text-3xl font-semibold">Weddings </li>
+                    <li className="text-white text-3xl font-semibold">|</li>
+                    <li className="text-white text-3xl font-semibold">Funerals</li>
                 </ul>
             </div>
             ) : ''}
-        </>
+        </header>
     );
 };
 
