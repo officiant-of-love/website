@@ -8,11 +8,10 @@ const Header = () => {
     return (
         <>
             <header className="bg-black opacity-40 md:p-3 md:block">
-                <div class="flex justify-between p-5">
+                <div className="flex justify-between p-5">
                     <h1 className="font-semibold text-4xl lg:text-6xl text-white text-center">Officiant of Love</h1>
                     <Nav mobileNavOpen={mobileNavOpen} setMobileNavOpen={setMobileNavOpen}/>
                 </div>
-                
             </header>
             {mobileNavOpen ? (
             <div className="bg-black opacity-20">
