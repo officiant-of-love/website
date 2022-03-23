@@ -3,7 +3,7 @@ import closeIcon from './close.svg'
 
 const Nav = ({ mobileNavOpen, setMobileNavOpen }) => {
     const handleClick = (e) => {
-        console.log(e.target.innerHtml)
+        console.log('click')
     };
 
     return (
