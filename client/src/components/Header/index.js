@@ -7,9 +7,9 @@ const Header = () => {
 
     return (
         <>
-            <header className="bg-black opacity-40 md:p-3 md:block">
-                <div className="flex justify-between p-5">
-                    <h1 className="font-semibold text-4xl lg:text-6xl text-white text-center">Officiant of Love</h1>
+            <header className="bg-black opacity-40 p-5 md:p-3 md:block">
+                <div className="flex justify-between md:flex-col">
+                    <h1 className="font-semibold text-4xl lg:text-6xl text-white text-center px-2 pt-2">Officiant of Love</h1>
                     <Nav mobileNavOpen={mobileNavOpen} setMobileNavOpen={setMobileNavOpen}/>
                 </div>
             </header>

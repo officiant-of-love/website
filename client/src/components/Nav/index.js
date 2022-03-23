@@ -3,19 +3,19 @@ import closeIcon from './close.svg'
 
 const Nav = ({ mobileNavOpen, setMobileNavOpen }) => {
     const handleClick = (e) => {
-        console.log(e.target.style)
+        console.log(e.target.innerHtml)
     };
 
     return (
-        <nav className='flex flex-row flex-wrap'>
-            <ul className="hidden md:flex flex-row text-white justify-center ">
-                <li className='cursor-pointer' onClick={handleClick}>About</li>
-                <li className='px-1'>|</li>
-                <li className='cursor-pointer' onClick={handleClick}>Weddings</li>
-                <li className='px-1'>|</li>
-                <li className='cursor-pointer' onClick={handleClick}>Funerals</li>
+        <nav>
+            <ul className="hidden md:flex text-white justify-center align-middle">
+                <li className='cursor-pointer md:text-xl lg:text-3xl' onClick={handleClick}>About</li>
+                <li className='px-1 md:text-xl lg:text-3xl'>|</li>
+                <li className='cursor-pointer md:text-xl lg:text-3xl' onClick={handleClick}>Weddings</li>
+                <li className='px-1 md:text-xl lg:text-3xl'>|</li>
+                <li className='cursor-pointer md:text-xl lg:text-3xl' onClick={handleClick}>Funerals</li>
             </ul>
-            <img className='align-middle md:hidden pt-1' src={!mobileNavOpen ? hamburgerMenu : closeIcon} onClick={() => setMobileNavOpen(!mobileNavOpen)} alt="mobile menu"/>
+            <img className='md:hidden pt-3' src={!mobileNavOpen ? hamburgerMenu : closeIcon} onClick={() => setMobileNavOpen(!mobileNavOpen)} alt="mobile menu"/>
         </nav>
     );
 };
