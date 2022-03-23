@@ -15,7 +15,7 @@ const Header = () => {
             </header>
             {mobileNavOpen ? (
             <div className="bg-black opacity-20">
-                <ul className='flex flex-row justify-between px-2 py-1 opacity-100'>
+                <ul className='flex flex-row justify-between px-2 py-1 sm:px-3 opacity-100'>
                     <li className="text-white text-3xl">About </li>
                     <li className="text-white text-3xl">|</li>
                     <li className="text-white text-3xl">Weddings </li>
