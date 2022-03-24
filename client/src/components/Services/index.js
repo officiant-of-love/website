@@ -28,18 +28,18 @@ const Services = () => {
                 <div className="flex">
                     <div className="flex flex-col mx-2 lg:w-[330px]">
                         <h2 className='text-3xl'>{servicesArr[0].name}</h2>
-                        <img className='my-4' src={servicesArr[0].photo} alt="" />
-                        <p className="text-2xl">{servicesArr[0].description}</p>
+                        <img className='m-4' src={servicesArr[0].photo} alt="" />
+                        <p className="text-xl">{servicesArr[0].description}</p>
                     </div>
                     <div className="flex flex-col mx-2 lg:w-[330px]">
                         <h2 className='text-3xl'>{servicesArr[1].name}</h2>
-                        <img className='my-4' src={servicesArr[1].photo} alt="" />
-                        <p className="text-2xl">{servicesArr[1].description}</p>
+                        <img className='m-4' src={servicesArr[1].photo} alt="" />
+                        <p className="text-xl">{servicesArr[1].description}</p>
                     </div>
                     <div className="flex flex-col mx-2 lg:w-[330px]">
                         <h2 className='text-3xl'>{servicesArr[2].name}</h2>
-                        <img className='my-4' src={servicesArr[2].photo} alt="" />
-                        <p className="text-2xl">{servicesArr[2].description}</p>
+                        <img className='m-4' src={servicesArr[2].photo} alt="" />
+                        <p className="text-xl">{servicesArr[2].description}</p>
                     </div>
                 </div>
             </div>
