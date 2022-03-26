@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'wedding-hero': 'url(./pages/Weddings/wedding-flowers.jpg)',
+        'wedding-hero': 'url(./pages/Weddings/assets/wedding-flowers.jpg)',
       }
     },
   },

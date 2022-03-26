@@ -2,9 +2,9 @@ import Hero from '../../components/Hero';
 import Services from '../../components/Services';
 import Recommendations from '../../components/Recommendations';
 
-import ringsPhoto from "./rings.jpg";
-import vowsPhoto from "./vows.jpg";
-import ceremonyPhoto from "./ceremony.jpg";
+import ringsPhoto from "./assets/rings.jpg";
+import vowsPhoto from "./assets/vows.jpg";
+import ceremonyPhoto from "./assets/ceremony.jpg";
 
 const Weddings = () => {
     const servicesArr = [
