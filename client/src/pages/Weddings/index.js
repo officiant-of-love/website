@@ -28,7 +28,7 @@ const Weddings = () => {
       ];
     return(
         <main>
-            <Hero />f
+            <Hero />
             <Services servicesArr={servicesArr}/>
         </main>
     );
