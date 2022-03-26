@@ -1,8 +1,7 @@
 
 const Services = ({servicesArr}) => {
-
   return (
-    <section className="absolute flex top-[400px] lg:top-[650px] w-full h-[965px] justify-center">
+    <section className="absolute flex top-[400px] lg:top-[650px] w-full h-[850px] justify-center">
       <div className="bg-[#F7F3EB] flex flex-col m-auto w-[85%] p-6 text-center">
         <h1 className="font-semibold text-5xl mb-6 ">Services</h1>
         <div className="flex mx-auto">
