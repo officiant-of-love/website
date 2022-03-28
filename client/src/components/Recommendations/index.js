@@ -1,13 +1,10 @@
-import recOne from './Clare-Gierth.png'
+import { useState } from 'react';
+
 import backArrow from './back-arrow.svg';
 import nextArrow from './next-arrow.svg';
 
-const Recommendations = () => {
-    const rec = {
-        img: recOne,
-        text: 'My husband and I had a beautiful marriage ceremony with Helena as our officiant for our elopement. We had planned and replanned our wedding several times due to covid and finally decided to elope. Helena accommodated our wedding date on short notice and still provided us with full service options and ceremony customization. We greatly appreciated the ease of communication with Helena through text, phone calls, and email. Helena answered all of our questions about the marriage license process.  Helena was such a pleasure to speak with and be in her presence on our special day. We truly felt her sincerity and genuine love for the relationships she is officiating. Thank you Helena!',
-        reviewer: 'Clare Gierth'
-    }
+const Recommendations = ({recArr}) => {
+    const [rec, setRec] = useState(recArr[0])
     return(
         <section className="bg-[#F7F3EB] absolute top-[2075px] md:top-[1430px] lg:top-[1460px] w-full flex flex-col py-10">
             <h2 className="text-center text-5xl font-semibold mb-8">Recommendations</h2>
