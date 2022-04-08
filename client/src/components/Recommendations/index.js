@@ -10,6 +10,11 @@ const Recommendations = ({recArr}) => {
     const rec = recArr[recNum];
 
     const backClickHandler = () => {
+        const recommendationsEl = document.getElementById("recommendations");
+        window.scrollTo({
+            top:recommendationsEl.offsetTop,
+            behavior:"smooth"
+        })
         if(recNum === 0) {
             setRecNum(recArr.length -1);
             return;
@@ -18,6 +23,11 @@ const Recommendations = ({recArr}) => {
     };
 
     const nextClickHandler = () => {
+        const recommendationsEl = document.getElementById("recommendations");
+        window.scrollTo({
+            top:recommendationsEl.offsetTop,
+            behavior:"smooth"
+        })
         if(recNum === recArr.length -1) {
             setRecNum(0)
             return;
@@ -30,7 +40,7 @@ const Recommendations = ({recArr}) => {
     };
 
     return(
-        <section className="bg-[#F7F3EB] absolute top-[2075px] md:top-[1430px] lg:top-[1460px] w-full flex flex-col py-10">
+        <section className="bg-[#F7F3EB] absolute top-[2075px] md:top-[1430px] lg:top-[1460px] w-full flex flex-col py-10" id="recommendations">
             <h2 className="text-center text-5xl font-semibold mb-8">Recommendations</h2>
             <div className="flex flex-col lg:flex-row justify-center">
                 <img src={fullBackArrow} className="drop-shadow-md h-12 my-auto hidden lg:flex" onClick={backClickHandler}/>
@@ -43,8 +53,8 @@ const Recommendations = ({recArr}) => {
                 </div>
                 <img src={fullNextArrow} className="drop-shadow-md h-12 my-auto hidden lg:flex" onClick={nextClickHandler}/>
                 <div className="flex lg:hidden justify-center">
-                    <img src={mobileBackArrow} className='drop-shadow-lg h-12 mt-4'/>
-                    <img src={mobileNextArrow} className='drop-shadow-lg h-12 mt-4'/>
+                    <img src={mobileBackArrow} className='drop-shadow-lg h-12 mt-4' onClick={backClickHandler}/>
+                    <img src={mobileNextArrow} className='drop-shadow-lg h-12 mt-4' onClick={nextClickHandler}/>
                 </div>
             </div>
         </section>
