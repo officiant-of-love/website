@@ -43,8 +43,8 @@ const Recommendations = ({recArr}) => {
                 </div>
                 <img src={fullNextArrow} className="drop-shadow-md h-12 my-auto hidden lg:flex" onClick={nextClickHandler}/>
                 <div className="flex lg:hidden justify-center">
-                    <img src={mobileBackArrow} className='drop-shadow-md h-4'/>
-                    <img src={mobileNextArrow} className='drop-shadow-md h-4'/>
+                    <img src={mobileBackArrow} className='drop-shadow-lg h-12 mt-4'/>
+                    <img src={mobileNextArrow} className='drop-shadow-lg h-12 mt-4'/>
                 </div>
             </div>
         </section>
