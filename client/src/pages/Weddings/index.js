@@ -48,11 +48,11 @@ const Weddings = () => {
     },
   ];
   return (
-    <main className="flex">
+    <>
       <Hero />
       <Services servicesArr={servicesArr} />
       <Recommendations recArr={recArr} />
-    </main>
+    </>
   );
 };
 
