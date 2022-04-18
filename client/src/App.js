@@ -7,7 +7,6 @@ import Weddings from './pages/Weddings';
 function App() {
   return (
     <>
-      <Header />
       <main>
         <Weddings />
       </main>
