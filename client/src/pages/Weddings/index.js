@@ -49,7 +49,7 @@ const Weddings = () => {
   ];
   return (
     <>
-      <Hero />
+      <Hero page="wedding"/>
       <Services servicesArr={servicesArr} />
       <Recommendations recArr={recArr} />
     </>
