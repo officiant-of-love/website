@@ -1,9 +1,17 @@
+import { useState } from 'react';
+
 import hamburgerMenu from './hamburger-menu.svg';
 import closeIcon from './close.svg'
 
 const Nav = ({ mobileNavOpen, setMobileNavOpen }) => {
+    const selectedTitle = useState('About');
     const handleClick = (e) => {
-        console.log('click')
+        let { style, textContent } = e.target;
+        if(!style.fontWeight) {
+            style.fontWeight = 'bold';
+            return;
+        }
+        style.fontWeight = '';
     };
 
     return (
