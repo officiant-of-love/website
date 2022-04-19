@@ -1,4 +1,5 @@
 import letterPhoto from "./assets/helena-letter.png";
+import Social from '../Social';
 
 const Letter = () => {
     return (
@@ -25,6 +26,7 @@ const Letter = () => {
                     </div>
                 </div>
             </div>
+            <Social />
         </section>
     );
 };
