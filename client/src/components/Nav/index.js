@@ -14,6 +14,8 @@ const Nav = ({ mobileNavOpen, setMobileNavOpen }) => {
                 <li className='cursor-pointer md:text-xl lg:text-3xl' onClick={handleClick}>Weddings</li>
                 <li className='px-1 md:text-xl lg:text-3xl'>|</li>
                 <li className='cursor-pointer md:text-xl lg:text-3xl' onClick={handleClick}>Funerals</li>
+                <li className='px-1 md:text-xl lg:text-3xl'>|</li>
+                <li className='cursor-pointer md:text-xl lg:text-3xl' onClick={handleClick}>Contact</li>
             </ul>
             <img className='md:hidden pt-3' src={!mobileNavOpen ? hamburgerMenu : closeIcon} onClick={() => setMobileNavOpen(!mobileNavOpen)} alt="mobile menu"/>
         </nav>
