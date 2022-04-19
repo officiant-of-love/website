@@ -6,7 +6,7 @@ const Header = () => {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
     return (
-        <header>
+        <header className='absolute top-0 w-full'>
             <div className="bg-black/40 p-5 md:p-3 md:block">
                 <div className="flex justify-between md:flex-col">
                     <h1 className="font-semibold text-4xl lg:text-6xl text-white text-center px-2 pt-2">Officiant of Love</h1>
