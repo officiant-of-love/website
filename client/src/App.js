@@ -1,3 +1,5 @@
+import { Routes, Route } from 'react-router-dom';
+
 import './App.css';
 import Footer from './components/Footer';
 
@@ -10,10 +12,12 @@ function App() {
   return (
     <>
       <main>
-        {/* <Weddings /> */}
-        {/* <About /> */}
-        {/* <Funerals /> */}
-        <Contact />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/weddings" element={<Weddings />} />
+          <Route path="/funerals" element={<Funerals />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
       <Footer />
     </>
