@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import Nav from '../Nav';
 
@@ -16,11 +17,13 @@ const Header = () => {
             {mobileNavOpen ? (
             <div className="bg-black/20">
                 <ul className='flex flex-row justify-between px-2 py-1 sm:px-3'>
-                    <li className="text-white text-3xl font-semibold">About </li>
-                    <li className="text-white text-3xl font-semibold">|</li>
-                    <li className="text-white text-3xl font-semibold">Weddings </li>
-                    <li className="text-white text-3xl font-semibold">|</li>
-                    <li className="text-white text-3xl font-semibold">Funerals</li>
+                    <li className="text-white text-xl font-semibold"><Link to="/">About</Link> </li>
+                    <li className="text-white text-xl font-semibold">|</li>
+                    <li className="text-white text-xl font-semibold"><Link to="/weddings">Weddings</Link> </li>
+                    <li className="text-white text-xl font-semibold">|</li>
+                    <li className="text-white text-xl font-semibold"><Link to="/funerals">Funerals</Link></li>
+                    <li className="text-white text-xl font-semibold">|</li>
+                    <li className="text-white text-xl font-semibold"><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
             ) : ''}
