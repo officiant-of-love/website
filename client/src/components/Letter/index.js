@@ -1,4 +1,4 @@
-import letterPhoto from "./assets/helena-letter.png";
+import letterPhoto from "./assets/helena-letter.jpg";
 import Social from '../Social';
 
 const Letter = () => {
