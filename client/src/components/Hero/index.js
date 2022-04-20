@@ -14,6 +14,10 @@ const Hero = ({page}) => {
             heroBg = 'bg-wedding-hero';
             heroText = 'Weddings';
             break;
+        case 'funeral':
+            heroBg = 'bg-funeral-hero';
+            heroText = 'Funerals';
+            break;
     }
     return (
         <section className={`flex flex-col ${heroBg} w-full h-[400px] lg:h-[650px] bg-cover bg-center -z-10 justify-center`}>

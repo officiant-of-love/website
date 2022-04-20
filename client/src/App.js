@@ -3,13 +3,15 @@ import Footer from './components/Footer';
 
 import Weddings from './pages/Weddings';
 import About from './pages/About';
+import Funerals from './pages/Funerals';
 
 function App() {
   return (
     <>
       <main>
         {/* <Weddings /> */}
-        <About />
+        {/* <About /> */}
+        < Funerals />
       </main>
       <Footer />
     </>
