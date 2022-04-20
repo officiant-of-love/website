@@ -9,7 +9,7 @@ const Letter = () => {
             </h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly lg:min-h-[640px]">
                 <div className="bg-white flex flex-col lg:flex-row w-[95%] md:w-[65%] mx-auto lg:mx-0 p-7 rounded-3xl justify-center">
-                    <img src={letterPhoto} className="object-cover lg:w-1/2" />
+                    <img src={letterPhoto} className="object-cover lg:w-1/2" alt="Helena smiling into the camera after performing a ceremony"/>
                     <div className="flex flex-col lg:ml-6 text-2xl pt-3 lg:pt-0 my-auto lg:w-1/2">
                         <p className="lg:leading-none text-left">
                             Thank you for being here. I hope to be able to assist you with

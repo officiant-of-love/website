@@ -14,7 +14,7 @@ const Funerals = () => {
                 </h2>
                 <div className="flex flex-col lg:flex-row lg:justify-evenly ">
                     <div className="bg-white flex flex-col lg:flex-row w-[95%] md:w-[65%] mx-auto lg:mx-0 p-7 rounded-3xl justify-center">
-                        <img src={candlePhoto} className="object-cover lg:w-1/2" />
+                        <img src={candlePhoto} className="object-cover lg:w-1/2" alt=""/>
                         <div className="flex flex-col lg:ml-6 text-2xl pt-3 lg:pt-0 my-auto lg:w-1/2">
                             <p className="lg:leading-none text-center md:text-left">
                             The Funeral package includes the writing of the eulogy, choices of appropriate poems, optional prayers, composition of the funeral and grievance support resource guidance.
