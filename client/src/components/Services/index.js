@@ -1,7 +1,7 @@
 
 const Services = ({servicesArr}) => {
   return (
-    <section className="flex lg:top-[650px] w-full justify-center py-10">
+    <section className="flex w-full justify-center py-10">
       <div className="md:bg-[#F7F3EB] flex flex-col mx-auto md:w-[85%] text-center drop-shadow-lg p-3 md:p-6 ">
         <div className="bg-[#F7F3EB] absolute top-0 left-[12.5%] -z-10 w-3/4 h-[1575px] drop-shadow-lg md:hidden"/>
         <h1 className="font-semibold text-5xl md:mb-6 ">Services</h1>

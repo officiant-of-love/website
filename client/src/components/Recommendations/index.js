@@ -35,7 +35,7 @@ const Recommendations = ({recArr}) => {
         setRecNum(recNum + 1);
     };
     return(
-        <section className="bg-[#F7F3EB] md:top-[1430px] lg:top-[1460px] w-full flex flex-col py-10" id="recommendations">
+        <section className="bg-[#F7F3EB] w-full flex flex-col py-10" id="recommendations">
             <h2 className="text-center text-4xl lg:text-5xl font-semibold mb-8">Recommendations</h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly lg:min-h-[640px]">
                 <img src={fullBackArrow} className="drop-shadow-md h-12 my-auto hidden lg:flex" onClick={backClickHandler} alt='back arrow'/>
