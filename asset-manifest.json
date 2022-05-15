@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.c2d17a40.css",
-    "main.js": "/website/static/js/main.7ab6a8b2.js",
+    "main.js": "/website/static/js/main.806dc513.js",
     "static/media/funerals.jpg": "/website/static/media/funerals.a5e624bc17f0292a4a0d.jpg",
     "static/media/ceremony.jpg": "/website/static/media/ceremony.a00ebe525559e349fce3.jpg",
     "static/media/rings.jpg": "/website/static/media/rings.4d11bb2c6fcd394ae273.jpg",
@@ -24,10 +24,10 @@
     "static/media/mobile-next-arrow.svg": "/website/static/media/mobile-next-arrow.a92ad2bb2791cc8ba8e019c1450a88f8.svg",
     "static/media/hamburger-menu.svg": "/website/static/media/hamburger-menu.8994c2a87b15be4cb9665de080cd1987.svg",
     "main.c2d17a40.css.map": "/website/static/css/main.c2d17a40.css.map",
-    "main.7ab6a8b2.js.map": "/website/static/js/main.7ab6a8b2.js.map"
+    "main.806dc513.js.map": "/website/static/js/main.806dc513.js.map"
   },
   "entrypoints": [
     "static/css/main.c2d17a40.css",
-    "static/js/main.7ab6a8b2.js"
+    "static/js/main.806dc513.js"
   ]
 }
