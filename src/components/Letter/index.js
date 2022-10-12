@@ -12,15 +12,7 @@ const Letter = () => {
                     <img src={letterPhoto} className="object-cover lg:w-1/2" alt="Helena smiling into the camera after performing a ceremony"/>
                     <div className="flex flex-col lg:ml-6 text-2xl pt-3 lg:pt-0 my-auto lg:w-1/2">
                         <p className="lg:leading-none text-left">
-                            Thank you for being here. I hope to be able to assist you with
-                            your needs. A little background on me, I am an ordained officiant,
-                            officially ordained through Universal Life Church. I had a
-                            multi-denominational upbringing and still apply the best parts of
-                            what I have been taught into my daily life. I hold undergraduate
-                            degrees in Psychology and Management from California State
-                            University, Northridge. I am able to apply concepts that I have
-                            learned to assist people through challenges that may arise in the
-                            planning process, while effectively managing time and procedures.
+                        Thank you for visiting my website. I hope to be able to assist you with your needs. To share a little background on me, I am an ordained officiant, officially ordained through Universal Life Church. I had a multi-denominational upbringing and still apply the best parts of what I have been taught into my daily life. I hold degrees in Psychology and Management from California State University, Northridge. I am able to apply concepts that I have learned to assist people through challenges that may arise in the planning process, while effectively managing time and procedures. I am an LGBTQ ally. Please reach out to me to see how I can assist. 
                         </p>
                         <p className="text-right pt-4 font-bold">- Helena</p>
                     </div>
