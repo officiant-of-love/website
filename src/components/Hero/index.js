@@ -26,9 +26,9 @@ const Hero = ({page}) => {
             break;
     }
     return (
-        <section className={`flex flex-col ${heroBg} w-full h-[400px] lg:h-[650px] bg-cover bg-center -z-10 justify-center`}>
+        <section className={`flex flex-col ${heroBg} w-full h-[400px] lg:h-[650px] bg-cover bg-center -z-10`}>
             <Header />
-            <h1 className="text-center text-white font-bold text-[65px] lg:text-9xl my-auto  hero-title">{heroText}</h1>
+            <h1 className="text-center text-white font-bold text-[65px] lg:text-9xl my-auto hero-title">{heroText}</h1>
         </section>
     );
 };
