@@ -24,13 +24,17 @@ const Form = () => {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        emailjs.send('service_kt8il4a', 'template_rvwxk9q', formValues, 'Y4DVl1ny8VVvZKICh')
-            .then((result) => {
-                setSent(true);
-                console.log("yay!",result.text);
-            }, (error) => {
-                console.log("oh no :(",error.text);
-            });
+        if(document.querySelector('input[name="phone"]').value.length < 10) {
+            alert('Please double check your phone number and try again');
+        } else {
+            emailjs.send('service_kt8il4a', 'template_rvwxk9q', formValues, 'Y4DVl1ny8VVvZKICh')
+                .then((result) => {
+                    setSent(true);
+                    console.log("yay!",result.text);
+                }, (error) => {
+                    console.log("oh no :(",error.text);
+                });
+        }
     };
     return (
         <form className="w-full flex flex-col">
