@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a45c993.css",
-    "main.js": "/static/js/main.3f6184d2.js",
+    "main.css": "/static/css/main.1623ca4a.css",
+    "main.js": "/static/js/main.08832053.js",
+    "static/media/nina-rec.jpg": "/static/media/nina-rec.2349e2b54b672b7badf8.jpg",
     "static/media/ceremony.jpg": "/static/media/ceremony.a00ebe525559e349fce3.jpg",
     "static/media/rings.jpg": "/static/media/rings.4d11bb2c6fcd394ae273.jpg",
     "static/media/vows.jpg": "/static/media/vows.fe278cd7414ef6842cb8.jpg",
@@ -23,11 +24,11 @@
     "static/media/mobile-back-arrow.svg": "/static/media/mobile-back-arrow.7a6162ee55df99426fad4c56830369d9.svg",
     "static/media/mobile-next-arrow.svg": "/static/media/mobile-next-arrow.a92ad2bb2791cc8ba8e019c1450a88f8.svg",
     "static/media/hamburger-menu.svg": "/static/media/hamburger-menu.8994c2a87b15be4cb9665de080cd1987.svg",
-    "main.1a45c993.css.map": "/static/css/main.1a45c993.css.map",
-    "main.3f6184d2.js.map": "/static/js/main.3f6184d2.js.map"
+    "main.1623ca4a.css.map": "/static/css/main.1623ca4a.css.map",
+    "main.08832053.js.map": "/static/js/main.08832053.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a45c993.css",
-    "static/js/main.3f6184d2.js"
+    "static/css/main.1623ca4a.css",
+    "static/js/main.08832053.js"
   ]
 }
