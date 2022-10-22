@@ -43,7 +43,7 @@ const Recommendations = ({recArr}) => {
                     <img src={rec.img} className='object-cover lg:w-1/2' alt={rec.alt}/>
                     <div className='flex flex-col lg:ml-6 text-2xl pt-3 lg:pt-0 my-auto lg:w-1/2'>
                         <p className='lg:leading-none text-left'>"{rec.text}"</p>
-                        <p className='font-bold text-right overflow-scroll'>- {rec.reviewer}</p>
+                        <p className='font-bold text-right'>- {rec.reviewer}</p>
                     </div>
                 </div>
                 <img src={fullNextArrow} className="drop-shadow-md h-12 my-auto hidden lg:flex" onClick={nextClickHandler} alt='next arrow'/>
