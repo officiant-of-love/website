@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Officiant of Love</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/sf-regular/48/FFFFFF/like.png">
+    
+    <meta
+      name="description"
+      content="Officiant of Love, Helena Lissauer, is a compassionate wedding officiant based in Los Angeles."
+    />
+</head>
+<body>
+    <header className='absolute top-0 w-full'>
+        <div className="bg-black/40 p-5 md:p-3 md:block">
+            <div className="flex justify-between md:flex-col">
+                <h1 className="font-semibold text-4xl lg:text-6xl text-white text-center px-2 pt-2">Officiant of Love</h1>
+                <Nav mobileNavOpen={mobileNavOpen} setMobileNavOpen={setMobileNavOpen}/>
+            </div>
+        </div>
+        {mobileNavOpen ? (
+        <div className="bg-black/20">
+            <ul className='flex flex-row justify-between px-2 py-1 sm:px-3'>
+                <li className="text-white text-xl font-semibold"><Link to="/">About</Link> </li>
+                <li className="text-white text-xl font-semibold">|</li>
+                <li className="text-white text-xl font-semibold"><Link to="/weddings">Weddings</Link> </li>
+                <li className="text-white text-xl font-semibold">|</li>
+                <li className="text-white text-xl font-semibold"><Link to="/funerals">Funerals</Link></li>
+                <li className="text-white text-xl font-semibold">|</li>
+                <li className="text-white text-xl font-semibold"><Link to="/contact">Contact</Link></li>
+            </ul>
+        </div>
+        ) : ''}
+    </header>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</html>
