@@ -7,8 +7,9 @@ body, h1 {
     -moz-osx-font-smoothing: grayscale;
 }
 h1 {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 600;
+    line-height: 1;
 }
 header {
     position: absolute;
@@ -19,9 +20,10 @@ header {
 }
 header .bg {
     background-color: rgba(0, 0, 0, 0.39);
+    padding: 12px;
 }
 header .bg .content {
-    padding: 8px 8px;
+    padding-top: 8px;
 }
 header nav ul {
     list-style: none;
