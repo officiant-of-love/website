@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Dancing+Script:wght@700&display=swap');
+
+body, h1 {
+    margin: 0;
+    font-family: 'Cormorant Garamond';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+header .bg {
+    background-color: rgba(0, 0, 0, 0.39);
+}
+header .bg .content {
+    padding: 8px 8px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+header nav ul li.line {
+    margin: 0 4px;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
