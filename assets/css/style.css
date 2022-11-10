@@ -33,6 +33,10 @@ header nav ul {
     justify-content: center;
     padding: 0;
 }
+header nav ul li:hover,
+header nav ul li.active {
+    font-weight: 700;
+}
 header nav ul li.line {
     margin: 0 4px;
 }
