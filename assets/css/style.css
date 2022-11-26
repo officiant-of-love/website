@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;800&family=Dancing+Script:wght@700&display=swap');
 
-body, h1 {
-    margin: 0;
-    font-family: 'Cormorant Garamond';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 .desktop {
     display: block;
 }
@@ -15,10 +9,19 @@ body, h1 {
 .mobile {
     display: none;
 }
+body, h1 {
+    margin: 0;
+    font-family: 'Cormorant Garamond';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 h1 {
     font-size: 60px;
     font-weight: 600;
     line-height: 1;
+}
+img {
+    width: 100%;
 }
 header {
     position: absolute;
@@ -44,7 +47,7 @@ header nav ul {
 }
 header nav ul li:hover,
 header nav ul li.active {
-    font-weight: 700;
+    font-weight: 800;
 }
 header nav ul li.line {
     margin: 0 4px;
@@ -53,7 +56,20 @@ header a {
     text-decoration: none;
     color: #fff;
 }
+.hero {
+    background-image: url(../images/About.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: 108% auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
 
+@media screen and (max-width: 1023.98px) {
+    .hero {
+        height: 400px;
+    }
+}
 
 @media screen and (max-width: 767.98px) {
     .mobile {
@@ -68,9 +84,6 @@ header a {
     }
     h1 {
         font-size: 35px;
-    }
-    header {
-        background-image: url('');
     }
     header h1 {
         text-align: left;
