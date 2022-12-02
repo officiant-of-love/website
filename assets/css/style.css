@@ -95,6 +95,7 @@ header a {
     }
     .menu {
         background-color: rgba(0, 0, 0, 0.19);
+        display: none;
     }
     .menu ul {
         display: flex;
@@ -108,5 +109,9 @@ header a {
         font-size: 1.25rem;
         line-height: 1.75rem;
         font-weight: 700;
+    }
+    .hero {
+        background-size: cover;
+        background-position: center;
     }
 }
