@@ -74,6 +74,27 @@ header a {
     font-size: 65px;
     color: #fff;
 }
+.intro {
+    width: 100%;
+    padding: 2.5rem 0;
+}
+.intro .text-bg {
+    background-color: #F7F3EB;
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem;
+}
+.intro .text-bg h2{
+    margin: 0;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+.intro .text-bg p {
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
 
 @media screen and (max-width: 1023.98px) {
     .hero {
