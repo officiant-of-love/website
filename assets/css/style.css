@@ -96,6 +96,39 @@ header a {
     padding-top: 0.5rem;
 }
 
+section.letter {
+    background-color: #F7F3EB;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+section.letter h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+section.letter .letter-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    padding: 1.75rem;
+    background-color: #fff;
+    margin: 0 auto;
+}
+section.letter .letter-bg img {
+    width: 50%;
+}
+section.letter .letter-bg .text {
+    margin: auto 1.5rem;
+    font-size: 1.5rem;
+}
+section.letter .letter-bg .text p:first-of-type {
+    text-align: left;
+}
+section.letter .letter-bg .text p:last-of-type {
+    text-align: right;
+}
+
 @media screen and (max-width: 1023.98px) {
     .hero {
         height: 400px;
