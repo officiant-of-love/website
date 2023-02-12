@@ -14,3 +14,21 @@ const closeMenu = () => {
 $('#mobile-menu-btn').click(() => {
     $('#mobile-menu-btn').attr('src') === hamburgerMenuImg ? openMenu() : closeMenu();
 });
+
+$('window').ready(() => {
+    let page = document.location.toString().split('/');
+    page = page[page.length - 1]
+    switch (page) {
+        case 'index.html': 
+            $('.about').addClass('active');
+            break;
+        case 'weddings.html':
+            $('.weddings').addClass('active');
+            break;
+        case 'funerals.html':
+            $('.funerals').addClass('active');
+            break;
+        default:
+            break;
+    }
+})
