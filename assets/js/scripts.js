@@ -21,12 +21,17 @@ $('window').ready(() => {
     switch (page) {
         case 'index.html': 
             $('.about').addClass('active');
+            $('.hero').css('background-image', "url('./assets/images/About.jpg')");
             break;
         case 'weddings.html':
             $('.weddings').addClass('active');
+            $('.hero').css('background-image', 'url("./assets/images/wedding-flowers.jpg")');
+            $('.hero .title').text('Weddings');
             break;
         case 'funerals.html':
             $('.funerals').addClass('active');
+            $('.hero').css('background-image', 'url("./assets/images/wedding-flowers.jpg")');
+            $('.hero .title').text('Funerals');
             break;
         default:
             break;
