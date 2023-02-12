@@ -41,9 +41,13 @@ header nav ul {
     list-style: none;
     display: flex;
     font-size: 30px;
-    margin: 0;
+    margin: 0 auto;
     justify-content: center;
     padding: 0;
+    width: 600px;
+}
+header nav ul li.active {
+    pointer-events: none;
 }
 header nav ul li:hover,
 header nav ul li.active {
