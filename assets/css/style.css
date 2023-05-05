@@ -77,11 +77,13 @@ header a {
     font-size: 10vw;
     color: #fff;
 }
-.intro {
+.intro,
+section.services {
     width: 100%;
     padding: 2.5rem 0;
 }
-.intro .text-bg {
+.intro .text-bg,
+section.services .content {
     background-color: #F7F3EB;
     width: 85%;
     max-width: 1440px;
@@ -110,6 +112,7 @@ section.letter h2 {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    margin-top: 0;
 }
 section.letter .letter-bg {
     display: flex;
@@ -153,6 +156,20 @@ footer {
     line-height: 2.5rem;
     text-align: center;
     padding: 1.25rem 0;
+}
+
+.service-list {
+    display: flex;
+}
+
+.service {
+    width: 33.333%;
+    margin: 1rem 0.5rem;
+}
+
+.service img { 
+    margin: 0 auto; 
+    width: 85%;
 }
 
 @media screen and (max-width: 1023.98px) {
