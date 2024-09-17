@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.1623ca4a.css",
-    "main.js": "/static/js/main.e394c7b6.js",
+    "main.js": "/static/js/main.5558448e.js",
     "static/media/nina-rec.jpg": "/static/media/nina-rec.2349e2b54b672b7badf8.jpg",
     "static/media/ceremony.jpg": "/static/media/ceremony.a00ebe525559e349fce3.jpg",
     "static/media/rings.jpg": "/static/media/rings.4d11bb2c6fcd394ae273.jpg",
     "static/media/vows.jpg": "/static/media/vows.fe278cd7414ef6842cb8.jpg",
-    "static/media/helena-letter.jpg": "/static/media/helena-letter.6ece85b992e68ce8c56b.jpg",
+    "static/media/helena-letter.png": "/static/media/helena-letter.5d4cce6bdc9105201f5f.png",
     "static/media/wedding-flowers.jpg": "/static/media/wedding-flowers.0a8b540c1ea10c7f71aa.jpg",
     "static/media/About.jpg": "/static/media/About.1d9abf3c74395c218dd5.jpg",
     "static/media/holly-rec.png": "/static/media/holly-rec.aef15c2a854655bfc96b.png",
@@ -25,10 +25,10 @@
     "static/media/mobile-next-arrow.svg": "/static/media/mobile-next-arrow.a92ad2bb2791cc8ba8e019c1450a88f8.svg",
     "static/media/hamburger-menu.svg": "/static/media/hamburger-menu.8994c2a87b15be4cb9665de080cd1987.svg",
     "main.1623ca4a.css.map": "/static/css/main.1623ca4a.css.map",
-    "main.e394c7b6.js.map": "/static/js/main.e394c7b6.js.map"
+    "main.5558448e.js.map": "/static/js/main.5558448e.js.map"
   },
   "entrypoints": [
     "static/css/main.1623ca4a.css",
-    "static/js/main.e394c7b6.js"
+    "static/js/main.5558448e.js"
   ]
 }
