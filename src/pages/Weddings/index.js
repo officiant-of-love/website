@@ -36,12 +36,6 @@ const Weddings = () => {
   ];
   const recArr = [
     {
-      img: ninaRecPhoto,
-      text: "Amazing person! Helena’s very sweet and attentive to me and my wife. She went beyond expectations on our special day! Everyone was happy and she brought tears to all my guests with her beautiful words and readings! Thank you Helena for being there and for helping us even after the wedding with all our questions.",
-      reviewer: "Nina Schwab",
-      alt: 'Helena and couple take a selfie after ceremony.'
-    },
-    {
       img: clareRecPhoto,
       text: "My husband and I had a beautiful marriage ceremony with Helena as our officiant for our elopement. We had planned and replanned our wedding several times due to covid and finally decided to elope. Helena accommodated our wedding date on short notice and still provided us with full service options and ceremony customization. We greatly appreciated the ease of communication with Helena through text, phone calls, and email. Helena answered all of our questions about the marriage license process.  Helena was such a pleasure to speak with and be in her presence on our special day. We truly felt her sincerity and genuine love for the relationships she is officiating. Thank you Helena!",
       reviewer: "Clare Gierth",
@@ -58,7 +52,13 @@ const Weddings = () => {
       text: "Helena was a fabulous officiant. She guided us through the ceremony planning process and offered many resources to help us decide what components we wanted to include. She checked in with us at just the right times in the weeks leading up to the ceremony. One wedding day, Helena was professional, warm, and loving as she officiated our zoom wedding! Thank you Helena!",
       reviewer: "Holly Bluhm",
       alt: 'Helena and couple take a selfie after ceremony.'
-    }
+    },
+    {
+      img: ninaRecPhoto,
+      text: "Amazing person! Helena’s very sweet and attentive to me and my wife. She went beyond expectations on our special day! Everyone was happy and she brought tears to all my guests with her beautiful words and readings! Thank you Helena for being there and for helping us even after the wedding with all our questions.",
+      reviewer: "Nina Schwab",
+      alt: 'Helena and couple take a selfie after ceremony.'
+    },
   ];
   return (
     <>
