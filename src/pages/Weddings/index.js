@@ -9,6 +9,10 @@ import angelicaRecPhoto from './assets/angelica-rec.png';
 import clareRecPhoto from './assets/clare-rec.png';
 import hollyRecPhoto from './assets/holly-rec.png';
 import ninaRecPhoto from './assets/nina-rec.jpg';
+import dessaRecPhoto from './assets/dessa-rec.png';
+import albertRecPhoto from './assets/albert-rec.png';
+import karenRecPhoto from './assets/karen-rec.png';
+import whitneyRecPhoto from './assets/whitney-rec.png';
 
 const Weddings = () => {
   const servicesArr = [
@@ -36,6 +40,30 @@ const Weddings = () => {
   ];
   const recArr = [
     {
+      img: albertRecPhoto,
+      text: `The ceremony Helena conducted us was absolutely incredible! She really took the time to make sure she knew us and went into detail so beautifully to create our love story. She was supportive and comforting for my wife and I during the ceremony and we truly appreciated that.`,
+      reviewer: "Albert Lizardo",
+      alt: 'Helena and the beautiful wedding couple smiling after the oceanside ceremony.'
+    }, 
+    {
+      img: dessaRecPhoto,
+      text: `We were so honored to have Helena officiate our wedding. She made our ceremony so special and personal, and we truly appreciate her time and effort. We were so impressed with the beautiful and meaningful ceremony. Helena  perfectly captured our love story and our hopes and dreams for the future. We also appreciate her personal touches, one of our favorite parts is the "honoring of our loved ones" who weren't able to be with us on that special day. We are so grateful for her role in our wedding day. It was truly magical, and we will never forget it`,
+      reviewer: "Dessa Kay",
+      alt: 'Helena and the beautiful wedding couple smiling after the oceanside ceremony.'
+    },
+    {
+      img: karenRecPhoto,
+      text: `Helena! She is AMAZING!!!! She is super professional and all around the sweetest person! She provided me and my husband such an amazing wedding ceremony! Helena made it easy and provided us ALOT of support to make our ceremony the way we wanted it! ! Such amazing person`,
+      reviewer: "Karen Diaz",
+      alt: 'Helena and the beautiful wedding couple smiling after a ceremony in a beautiful green space.'
+    },
+    {
+      img: whitneyRecPhoto,
+      text: `My husband and I were so happy and satisfied to have Helena as our officiant. She has a very beautiful voice, she tried to match with our schedule, everything went very smooth and lovely. So grateful to have her conducting our ceremony. 🥰✨`,
+      reviewer: "Whitney Keoski",
+      alt: 'Helena and the beautiful wedding couple smiling after a ceremony in a beautiful green space.'
+    },
+    {
       img: clareRecPhoto,
       text: "My husband and I had a beautiful marriage ceremony with Helena as our officiant for our elopement. We had planned and replanned our wedding several times due to covid and finally decided to elope. Helena accommodated our wedding date on short notice and still provided us with full service options and ceremony customization. We greatly appreciated the ease of communication with Helena through text, phone calls, and email. Helena answered all of our questions about the marriage license process.  Helena was such a pleasure to speak with and be in her presence on our special day. We truly felt her sincerity and genuine love for the relationships she is officiating. Thank you Helena!",
       reviewer: "Clare Gierth",
@@ -62,7 +90,7 @@ const Weddings = () => {
   ];
   return (
     <>
-      <Hero page="wedding"/>
+      <Hero page="wedding" />
       <Services servicesArr={servicesArr} />
       <Recommendations recArr={recArr} />
     </>
