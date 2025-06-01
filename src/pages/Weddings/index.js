@@ -9,6 +9,10 @@ import angelicaRecPhoto from './assets/angelica-rec.png';
 import clareRecPhoto from './assets/clare-rec.png';
 import hollyRecPhoto from './assets/holly-rec.png';
 import ninaRecPhoto from './assets/nina-rec.jpg';
+import dessaRecPhoto from './assets/dessa-rec.png';
+import albertRecPhoto from './assets/albert-rec.png';
+import karenRecPhoto from './assets/karen-rec.png';
+import whitneyRecPhoto from './assets/whitney-rec.png';
 
 const Weddings = () => {
   const servicesArr = [
@@ -36,10 +40,28 @@ const Weddings = () => {
   ];
   const recArr = [
     {
-      img: ninaRecPhoto,
-      text: "Amazing person! Helena’s very sweet and attentive to me and my wife. She went beyond expectations on our special day! Everyone was happy and she brought tears to all my guests with her beautiful words and readings! Thank you Helena for being there and for helping us even after the wedding with all our questions.",
-      reviewer: "Nina Schwab",
-      alt: 'Helena and couple take a selfie after ceremony.'
+      img: albertRecPhoto,
+      text: `The ceremony Helena conducted us was absolutely incredible! She really took the time to make sure she knew us and went into detail so beautifully to create our love story. She was supportive and comforting for my wife and I during the ceremony and we truly appreciated that.`,
+      reviewer: "Albert Lizardo",
+      alt: 'Helena and the beautiful wedding couple smiling after the oceanside ceremony.'
+    }, 
+    {
+      img: dessaRecPhoto,
+      text: `We were so honored to have Helena officiate our wedding. She made our ceremony so special and personal, and we truly appreciate her time and effort. We were so impressed with the beautiful and meaningful ceremony. Helena  perfectly captured our love story and our hopes and dreams for the future. We also appreciate her personal touches, one of our favorite parts is the "honoring of our loved ones" who weren't able to be with us on that special day. We are so grateful for her role in our wedding day. It was truly magical, and we will never forget it`,
+      reviewer: "Dessa Kay",
+      alt: 'Helena and the beautiful wedding couple smiling after the oceanside ceremony.'
+    },
+    {
+      img: karenRecPhoto,
+      text: `Helena! She is AMAZING!!!! She is super professional and all around the sweetest person! She provided me and my husband such an amazing wedding ceremony! Helena made it easy and provided us ALOT of support to make our ceremony the way we wanted it! ! Such amazing person`,
+      reviewer: "Karen Diaz",
+      alt: 'Helena and the beautiful wedding couple smiling after a ceremony in a beautiful green space.'
+    },
+    {
+      img: whitneyRecPhoto,
+      text: `My husband and I were so happy and satisfied to have Helena as our officiant. She has a very beautiful voice, she tried to match with our schedule, everything went very smooth and lovely. So grateful to have her conducting our ceremony. 🥰✨`,
+      reviewer: "Whitney Keoski",
+      alt: 'Helena and the beautiful wedding couple smiling after a ceremony in a beautiful green space.'
     },
     {
       img: clareRecPhoto,
@@ -58,11 +80,17 @@ const Weddings = () => {
       text: "Helena was a fabulous officiant. She guided us through the ceremony planning process and offered many resources to help us decide what components we wanted to include. She checked in with us at just the right times in the weeks leading up to the ceremony. One wedding day, Helena was professional, warm, and loving as she officiated our zoom wedding! Thank you Helena!",
       reviewer: "Holly Bluhm",
       alt: 'Helena and couple take a selfie after ceremony.'
-    }
+    },
+    {
+      img: ninaRecPhoto,
+      text: "Amazing person! Helena’s very sweet and attentive to me and my wife. She went beyond expectations on our special day! Everyone was happy and she brought tears to all my guests with her beautiful words and readings! Thank you Helena for being there and for helping us even after the wedding with all our questions.",
+      reviewer: "Nina Schwab",
+      alt: 'Helena and couple take a selfie after ceremony.'
+    },
   ];
   return (
     <>
-      <Hero page="wedding"/>
+      <Hero page="wedding" />
       <Services servicesArr={servicesArr} />
       <Recommendations recArr={recArr} />
     </>
