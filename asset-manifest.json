@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.1623ca4a.css",
-    "main.js": "/static/js/main.5558448e.js",
+    "main.js": "/static/js/main.b06b347b.js",
     "static/media/nina-rec.jpg": "/static/media/nina-rec.2349e2b54b672b7badf8.jpg",
+    "static/media/karen-rec.png": "/static/media/karen-rec.d646c6940e5ad93e3ce0.png",
+    "static/media/albert-rec.png": "/static/media/albert-rec.c0b615fd79f896559ef8.png",
+    "static/media/dessa-rec.png": "/static/media/dessa-rec.d423b2240efd13652279.png",
+    "static/media/whitney-rec.png": "/static/media/whitney-rec.75354e47ddf5d97b4446.png",
     "static/media/ceremony.jpg": "/static/media/ceremony.a00ebe525559e349fce3.jpg",
     "static/media/rings.jpg": "/static/media/rings.4d11bb2c6fcd394ae273.jpg",
     "static/media/vows.jpg": "/static/media/vows.fe278cd7414ef6842cb8.jpg",
@@ -25,10 +29,10 @@
     "static/media/mobile-next-arrow.svg": "/static/media/mobile-next-arrow.a92ad2bb2791cc8ba8e019c1450a88f8.svg",
     "static/media/hamburger-menu.svg": "/static/media/hamburger-menu.8994c2a87b15be4cb9665de080cd1987.svg",
     "main.1623ca4a.css.map": "/static/css/main.1623ca4a.css.map",
-    "main.5558448e.js.map": "/static/js/main.5558448e.js.map"
+    "main.b06b347b.js.map": "/static/js/main.b06b347b.js.map"
   },
   "entrypoints": [
     "static/css/main.1623ca4a.css",
-    "static/js/main.5558448e.js"
+    "static/js/main.b06b347b.js"
   ]
 }
